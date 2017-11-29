@@ -20,6 +20,6 @@
     <mvc:default-servlet-handler/>
     <bean class="redis.clients.jedis.Jedis" id="jedis">
         <constructor-arg index="0" type="java.lang.String" value="localhost"/>
-        <constructor-arg index="1" type="int" value="6379"/>
+        <constructor-arg index="1" type="int" value="16379"/>
     </bean>
 </beans>
